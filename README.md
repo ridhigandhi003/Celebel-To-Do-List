@@ -2,8 +2,8 @@
 It is a basic todo list that is used to organize tasks and increase productivity
 # To-Do-List Snippet
 ![Screenshot (1)](https://github.com/user-attachments/assets/988e8ce6-04d8-431d-a0b0-3eaa9217ee80)
-#Testing Guidance
-#Create Vite Project
+# Testing Guidance
+# Create Vite Project
 . npm create vite@latest my-react-app --template react
 
 # Run the app:
@@ -13,32 +13,32 @@ It is a basic todo list that is used to organize tasks and increase productivity
 
 . npm run dev # if using Vite
 
-#Features
+# Features
 ✅ Basic Functionality Tests
- 1) Add Task
+ # 1) Add Task
 
    . Enter a task and click Add
 
    . ✔️ Task appears in the list
 
- 2)  Validation
+# 2)  Validation
 
    . Click Add without typing anything
 
    . ✔️ Alert appears: "Task cannot be empty."
 
- 3)  Mark as Complete
+ # 3)  Mark as Complete
 
    .  Click on a task text
 
    .✔️ Text gets strikethrough and turns gray
 
- 4)  Delete Task
+ # 4)  Delete Task
 
    . Click the Delete button next to a task
 
    . ✔️ Task is removed from the list
-✅ Filter Test
+# ✅ Filter Test
 .Change filter dropdown to:
 
    . All → Shows all tasks
@@ -46,7 +46,7 @@ It is a basic todo list that is used to organize tasks and increase productivity
    .  Active → Shows only unchecked tasks
 
    .  Completed → Shows only checked tasks
-✅ Persistence (localStorage)
+# ✅ Persistence (localStorage)
 Add a few tasks
 
 Refresh the page
